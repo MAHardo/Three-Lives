@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "io.github.mahardo.threelives.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"ServerGamePacketListenerImplMixin",
+		"ServerPlayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

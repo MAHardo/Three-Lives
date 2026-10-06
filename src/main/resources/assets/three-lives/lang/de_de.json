@@ -1,0 +1,19 @@
+{
+	"gamerule.threelives.lives": "Hardcore-Leben",
+	"gamerule.threelives.lives.description": "Wie viele Leben jeder Spieler im Hardcore-Modus hat, bevor er zum Zuschauer wird",
+	"commands.threelives.get": "%s hat noch %s von %s Leben",
+	"commands.threelives.set": "%s hat jetzt %s von %s Leben",
+	"commands.threelives.set.too_many": "Maximal %s Leben möglich (Gamerule threelives:lives)",
+	"commands.threelives.reset": "%s wurde auf %s Leben zurückgesetzt",
+	"three-lives.death_screen.lives_left": "Du hast noch %s Leben",
+	"three-lives.death_screen.lives_left.one": "Du hast noch 1 Leben",
+	"three-lives.config.title": "Three Lives",
+	"three-lives.config.category.world": "Neue Welten",
+	"three-lives.config.category.display": "Anzeige",
+	"three-lives.config.default_lives": "Standard-Leben",
+	"three-lives.config.default_lives.tooltip": "Startwert der Gamerule threelives:lives für Welten, die du ab jetzt erstellst. Bestehende Welten behalten ihren eigenen Wert. Benötigt einen Neustart des Spiels.",
+	"three-lives.config.show_hearts": "Herzen anzeigen",
+	"three-lives.config.show_hearts.tooltip": "Zeigt deine verbleibenden Leben als Herzen über der Lebensanzeige.",
+	"three-lives.config.show_death_screen_line": "Leben im Todesbildschirm anzeigen",
+	"three-lives.config.show_death_screen_line.tooltip": "Zeigt \"Du hast noch X Leben\" im Todesbildschirm."
+}

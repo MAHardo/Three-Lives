@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "three-lives",
+	"version": "${version}",
+	"name": "Three Lives",
+	"description": "Every player gets a limited number of lives in hardcore worlds. Spectator mode only starts after the last one.",
+	"authors": [
+		"Moelis Hardo"
+	],
+	"contact": {
+		"sources": "https://github.com/MAHardo/Three-Lives"
+	},
+	"license": "MIT",
+	"icon": "assets/three-lives/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.mahardo.threelives.ThreeLives"
+		],
+		"client": [
+			"io.github.mahardo.threelives.client.ThreeLivesClient"
+		],
+		"modmenu": [
+			"io.github.mahardo.threelives.client.config.ThreeLivesModMenu"
+		]
+	},
+	"mixins": [
+		"three-lives.mixins.json",
+		{
+			"config": "three-lives.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	}
+}
